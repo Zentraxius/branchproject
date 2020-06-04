@@ -17,8 +17,26 @@
 // });
 
 $(document).ready(function () {
-  $("button").click(function () {
-    $(".card-body").slideToggle();
-    $(".card-body").slideToggle();
+  $("button#catBtn").click(function () {
+    $("#cat").slideToggle();
+    document.getElementById("#giraffe").style.display = "none";
+    document.getElementById("#flying-fox").style.display = "none";
+    // $(".card-body").slideToggle();
   });
 });
+
+$(document).ready(function () {
+  $("button#giraffeBtn").click(function () {
+    $("#giraffe").slideToggle();
+    // $(".card-body").slideToggle();
+  });
+});
+
+$(document).ready(function () {
+  $("button#flyFoxBtn").click(function () {
+    $("#flying-fox").slideToggle();
+    // $(".card-body").slideToggle();
+  });
+});
+
+// THIS BUTTON HAS TAKEN ITS HOLD ON ME

@@ -1,7 +1,24 @@
+.jumbotron {
+  text-align: center;
+}
+
 .card-body {
   display: none;
+  text-align: center;
+}
+
+img {
+  width: 100%;
 }
 
 /* .cat-showing {
   display: none;
 } */
+
+button {
+  text-align: center;
+}
+
+.card-header {
+  text-align: center;
+}
